@@ -1,0 +1,18 @@
+
+======================================================
+     ENTERPRISE SECURITY AUDIT REPORT                 
+     Target   : scanme.nmap.org                              
+     Time     : 2026-09-25 21:13:22                           
+======================================================
+[SECURE: CLOSED] Port 21    | Service: FTP         
+[ALERT: OPEN]   Port 22    | Service: SSH          | Risk: CRITICAL (Remote Admin Access)
+[SECURE: CLOSED] Port 23    | Service: Telnet      
+[ALERT: OPEN]   Port 80    | Service: HTTP         | Risk: INFO (Public Web Server)
+[SECURE: CLOSED] Port 443   | Service: HTTPS       
+[SECURE: CLOSED] Port 445   | Service: SMB         
+[SECURE: CLOSED] Port 3389  | Service: RDP         
+[SECURE: CLOSED] Port 8080  | Service: HTTP-Proxy  
+
+------------------------------------------------------
+  AUDIT SUMMARY: 1 High/Critical Risk(s) Detected!
+------------------------------------------------------
